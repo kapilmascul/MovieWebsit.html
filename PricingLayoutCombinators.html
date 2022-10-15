@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Layout</title>
+    <style>
+        .x{
+height:300px;
+width:800px;
+border:1px solid white;
+display:flex;
+justify-content: space-evenly;
+margin:auto;
+margin-top: 5%;
+        }.top{
+             text-align: center;
+        }.x>div{
+            height:300px;
+            width:200px;
+            border:1px solid white;
+            border-radius: 5%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           
+        }
+           
+        .x>div>button{
+            padding:5% 10%;
+            border:1px solid blue;
+            color: rgb(28,28,206);
+            font-weight:bolder;
+        }#a{
+            color:rgb(0,128,1);
+        }#b{
+            color:rgb(255,165,0);
+        }#c{
+            color:rgb(50,50,184);
+        }
+
+    </style>
+</head>
+<body><div class="top">
+    <h1>Choose a plan that right for <br> your business</h1>
+    <p>We collect reviews from our users so you can get an honest opinion of what <br>
+        an experience with our website are really like!</p>
+    <div class="x">
+        <div>
+            <h2>Starter Plan</h2>
+            <h1 id="a">Free</h1>
+            <i>Per Month</i>
+            <p>We collect reviews from our users so you can get an honest opinion of what an experience with our website.</p>
+             <button><b>Start Now</b></button>
+        </div>
+        <div>
+            <h2>Starter Plan</h2>
+            <h1 id="b">$39.00</h1>
+            <i>Per Month</i>
+            <p>We collect reviews from our users so you can get an honest opinion of what an experience with our website.</p>
+             <button><b>Start Now</b></button>
+        </div>
+        <div>
+            <h2>Starter Plan</h2>
+            <h1 id="c">$39.00</h1>
+            <i>Per Month</i>
+            <p>We collect reviews from our users so you can get an honest opinion of what an experience with our website.</p>
+             <button><b>Start Now</b></button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
