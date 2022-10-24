@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-101 C1</title>
+    <style>
+     .nav{
+      height: 70px;
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      display: flex;
+      justify-content: space-around;
+     }
+     .options{
+      display: flex;
+      justify-content: space-between;
+      width:60%;
+     }
+     .nav>img{
+      width: 8%;
+     }
+     .container{
+      height: 1400px;
+      width: 90%;
+      border: 1px solid white;
+      background-color: rgb(245,245,245);
+      margin: auto;
+      margin-top: 40px;
+     
+     }.top{
+      height: 20%;
+      width: 100%;
+      background-color: rgb(15,27,60);
+      color: white;
+      border-radius: 1%;
+      text-align: center;
+      padding-top: 100px;
+      
+     }.top>button{
+         color: white;
+         background-color: rgb(32,149,242);
+         width: 100px;
+         height: 30px;
+         border-radius: 10%;
+     }.mid-elements{
+      display: flex;
+      justify-content:space-evenly;
+      height: 30%;
+      width: 100%;
+      margin: auto;
+     }.mid-elements>div>img{
+      width:40%;
+      border-radius: 50%;
+      padding-top: 10px;
+     }.mid-elements>div{
+      height: 180px;
+      width: 10%;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+      background-color: white;
+      text-align: center;
+     }.bottom{
+        height: 50%;
+        width: 100;
+        background-color:rgb(245,245,245);
+        border: 1px solid white;
+
+     }.bottom>div{
+      height: 40%;
+      width: 95%;
+      display: flex;
+      justify-content: space-around;
+     }
+     .bottom>div>div{
+      width: 30%;
+      height: 100%;
+      background-color: white;
+      text-align: center;
+
+     }
+    </style>
+  </head>
+  <body>
+    <!-- This is the Navbar  -->
+    <div class="nav">
+      <img
+        class="logo"
+        src="https://cdn.indiawealth.in/cdn/images/fe/INDlogo_black_tm.png"
+        alt="indlogo"
+      />
+      <div class="options">
+        <!-- Different Options Should Go Here  -->
+        <h3>Explore</h3>
+        <h3>Features</h3>
+        <h3>Pricing</h3>
+        <h3>Blog</h3>
+        <h3>Customer Service</h3>
+        <h3>Login</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="top">
+        <!-- Create the Top Part Using This  -->
+        <h1>Get Free US Stocks Worth Upto $1000*</h1>
+        <h3>On Your First US Stock Funding</h3>
+        <button>Claim</button>
+      </div>
+      <div class="mid">
+        <h2>Invest in top tech stocks</h2>
+        <div class="mid-elements">
+          <!-- Create 8 Cards here  -->
+            <div>
+             <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+             <h5>Apple inc</h5>
+             <h5>$164.5</h5>
+            </div>
+            <div>
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+              <h5>Microsoft</h5>
+              <h5>$164.5</h5>
+             </div>
+             <div>
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+              <h5>Google.</h5>
+              <h5>$164.5</h5>
+             </div>
+             <div>
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+              <h5>Tiwan Semiconductor</h5>
+              <h5>$164.5</h5>
+             </div>
+             <div>
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+              <h5>Mercko Inc.</h5>
+              <h5>$164.5</h5>
+             </div>
+             <div>
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+              <h5>NVIDIA</h5>
+              <h5>$164.5</h5>
+             </div>
+             <div>
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+              <h5>Breadcom Inc.</h5>
+              <h5>$164.5</h5>
+             </div>
+             <div>
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg" alt="apple"> 
+              <h5>Johnson & Johnson</h5>
+              <h5>$164.5</h5>
+             </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <h1>Charges outside of INDmoney</h1>
+        <!-- Create the Bottom Part Here  -->
+        <h3>US Stocks</h3>
+        <div>
+          <div>
+            <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" alt="bot">
+            <h3>Taxation</h3>
+            <p>Less than 24 months:STCG.Income tax slab rate(+sur charge and cess).More than 24 months.LTCG @20%.</p>
+          </div>
+          <div>
+            <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" alt="bot">
+            <h3>Dividents</h3>
+            <p>Dividents are taxed at source at a rate of 25%.So the money you receive in your US stock account as a result of dividend payment will be post deduction of tax.You can however offset this tax deducted in your early income tax filings in India and get a full credit of the same</p>
+          </div>
+          <div>
+            <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" alt="bot">
+            <h3>TCS</h3>
+            <p>Above Rs.7Lakh:5% TCS(Can claim tax credit at while filing)</p>
+          </div>
+        </div>
+        <h3>Mutual Fund</h3>
+        <div>
+          <div>
+            <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" alt="bot">
+            <h3>Expense Ratio</h3>
+            <p>The AMC charges fund management fees + distribtuion(commision) to manage a mutua fund.INDmoney works with direct plans of mutual funds only.Direct plans of mutual funds have 0 distribution(commision),in turn minimizing the expense ratio.The applicable GST is also include in the expense ratio. </p>
+          </div>
+          <div>
+            <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" alt="bot">
+            <h3>STT(Stamp Duty)</h3>
+            <p>STT is a tax paid on purchase or sale of securities. When it comes to mutual funds, only equity oriented funds attract an STT payment. If you've invested in a debt oriented fund, then no STT applicable on it. STT of 0.025% of sold amount is payable when you sell units of equity mutual funds. STT is not applicable at the time of purchase of equity mutual funds.</p>
+          </div>
+          <div>
+            <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" alt="bot">
+            <h3>Exit Loads</h3>
+            <p>Exit load is a fee charged by the mutual fund houses if investors sell units within a certain period from the date of investment. Some funds don't charge exit load. Typically, equity mutual fund schemes levy an exit load of 1% if the units are sold within one year of buying. Debt funds, also levy an exit load, but the period could be as low as a day or a month since the overall tenure of the fund could be only a few weeks or months. Liquid funds do not charge any exit load.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
