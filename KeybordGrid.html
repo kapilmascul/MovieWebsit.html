@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keybord</title>
+    <style>
+      .keyboard{
+        display: grid;
+        margin: auto;
+        gap: 3px;
+        grid-template-columns: repeat(12,1fr);
+        width: 90%;
+        background-color: black;
+        text-align: center;
+        margin-top: 20%;
+      }
+      #shift,#enter{
+        grid-column-start: 11;
+        grid-column-end: 13;
+      }
+      #space{
+        grid-column-start: 5;
+        grid-column-end: 9;
+      }.keyboard>div{
+        background-color: rgb(53, 52, 52);
+        color: rgb(2,189,213);
+        font-size: 20px;
+       border-radius: 10%;
+      }
+    </style>
+</head>
+<body>
+    <div class="keyboard">
+        <div>~</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>Delete</div>
+        <div>tab</div>
+        <div>Q</div>
+        <div>W</div>
+        <div>E</div>
+        <div>R</div>
+        <div>T</div>
+        <div>Y</div>
+        <div>U</div>
+        <div>I</div>
+        <div>O</div>
+        <div>P</div>
+        <div>\</div>
+        <div>caps</div>
+        <div>A</div>
+        <div>S</div>
+        <div>D</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>J</div>
+        <div>K</div>
+        <div>L</div>
+        <div id="enter">Enter</div>
+        <div>Shift</div>
+        <div>Z</div>
+        <div>X</div>
+        <div>C</div>
+        <div>V</div>
+        <div>B</div>
+        <div>N</div>
+        <div>M</div>
+        <div><</div>
+        <div>></div>
+        <div id="shift">Shift</div>
+        <div>windows</div>
+        <div>control</div>
+        <div>option</div>
+        <div>alt</div>
+        <div id="space">Space</div>
+        <div>alt</div>
+        <div>option</div>
+        <div>left arrow</div>
+        <div>right arrow</div>
+    </div>
+</body>
+</html>
