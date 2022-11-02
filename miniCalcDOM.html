@@ -15,7 +15,7 @@
     <button  >Subtract</button>
     <button onclick="multi()" id="x">Multiply</button>
     <button onclick="division()" id="div">Divide</button>
-    <h1 id="ans">Answer</h1>
+    
 </body>
 </html>
 <script>
@@ -23,12 +23,12 @@
      function multi(){
        let value1=document.getElementById("input1").value ;
        let value2=document.getElementById("input2").value;
-        document.getElementById("ans").innerText=value1*value2;
+        alert (value1*value2)
     }
     function division(){
         let value1=document.getElementById("input1").value ;
        let value2=document.getElementById("input2").value;
-        document.getElementById("ans").innerText=value1/value2;
+        alert(value1/value2)
     }
 
 </script>
